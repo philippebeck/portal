@@ -1,0 +1,19 @@
+{
+    "name": "portal",
+    "version": "0.1.0",
+    "description": "Philippe Beck Portal Website",
+    "license": "MIT",
+    "main": "index.html",
+    "homepage": "https://philippebeck.net",
+    "repository": "github:philippebeck/portal",
+    "bugs": "https://github.com/philippebeck/portal/issues",
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.15.2",
+        "animadio": "^3.0.0"
+    },
+    "author": {
+        "name": "Philippe Beck",
+        "email": "philippe@philippebeck.net",
+        "url": "https://philippebeck.net"
+    }
+}
