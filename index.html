@@ -2,53 +2,80 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" 
+        content="width=device-width, initial-scale=1.0">
 
     <title>Philippe Beck</title>
 
-    <link rel="canonical"   href="https://philippebeck.net">
-    <link rel="icon"        href="img/favicon.ico" type="image/x-icon">
-    <link rel="preconnect"  href="https://fonts.gstatic.com">
+    <link rel="canonical"   
+        href="https://philippebeck.net">
+    <link rel="icon"        
+        href="img/favicon.ico" 
+        type="image/x-icon">
+    <link rel="preconnect"  
+        href="https://fonts.gstatic.com">
 
-    <meta name="description"  content="Philippe Beck Portal Website">
-    <meta name="author"       content="Philippe Beck">
+    <meta name="description"  
+        content="Philippe Beck Portal Website">
+    <meta name="author"       
+        content="Philippe Beck">
 
-    <meta property="og:type"        content="website">
-    <meta property="og:title"       content="Philippe Beck">
-    <meta property="og:url"         content="https://philippebeck.net">
-    <meta property="og:description" content="Philippe Beck Portal Website">
-    <meta property="og:image"       content="img/logo.svg">
+    <meta property="og:type"        
+        content="website">
+    <meta property="og:title"       
+        content="Philippe Beck">
+    <meta property="og:url"         
+        content="https://philippebeck.net">
+    <meta property="og:description" 
+        content="Philippe Beck Portal Website">
+    <meta property="og:image"       
+        content="img/logo.svg">
 
-    <meta name="twitter:card"         content="summary">
-    <meta name="twitter:title"        content="Philippe Beck">
-    <meta name="twitter:site"         content="https://philippebeck.net">
-    <meta name="twitter:description"  content="Philippe Beck Portal Website">
-    <meta name="twitter:image"        content="img/logo.svg">
-    <meta name="twitter:creator"      content="@ph_beck">
+    <meta name="twitter:card"         
+        content="summary">
+    <meta name="twitter:title"        
+        content="Philippe Beck">
+    <meta name="twitter:site"         
+        content="https://philippebeck.net">
+    <meta name="twitter:description"  
+        content="Philippe Beck Portal Website">
+    <meta name="twitter:image"        
+        content="img/logo.svg">
+    <meta name="twitter:creator"      
+        content="@ph_beck">
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Capriola&family=Kurale&family=Ubuntu+Mono&display=swap"> 
-    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
-    <link rel="stylesheet" href="node_modules/animadio/dist/min/animadio.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" 
+        href="https://fonts.googleapis.com/css2?family=Capriola&family=Kurale&family=Ubuntu+Mono&display=swap"> 
+    <link rel="stylesheet" 
+        href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" 
+        href="../../animadio/dist/min/animadio.min.css">
+    <link rel="stylesheet" 
+        href="css/style.css">
 </head>
   
 <body>
     <nav class="navbar">
-        <input id="navbar-close" type="radio" name="navbar" checked>
-        <input id="navbar-open" type="radio" name="navbar">
+        <input id="navbar-close" 
+            class="navbar-close"
+            type="radio" 
+            name="navbar" 
+            checked>
+        <input id="navbar-open" 
+            class="navbar-open"
+            type="radio" 
+            name="navbar">
     
-        <a class="anima-slipR" href="./" title="Accueil">
-            <img src="img/logo.svg" alt="Logo Phi" width="30px" height="30px">
+        <a class="anima-slideR-this" 
+            href="./" 
+            title="Accueil">
+            <img src="img/logo.svg" 
+                alt="Logo Phi" 
+                width="30px" 
+                height="30px">
         </a>
     
         <ul>
-            <li>
-                <a href="https://asperger.philippebeck.net" 
-                    title="Tests for Asperger Syndrome">
-                    <i class="fas fa-user-astronaut fa-lg fa-fw"></i>
-                    <span>Asperger</span>
-                </a>
-            </li>
             <li>
                 <a href="https://astronomy.philippebeck.net" 
                     title="NASA & CDS APIs">
@@ -57,31 +84,38 @@
                 </a>
             </li>
             <li>
-                <a href="https://tools2code.devsagency.net"
-                    title="Tools for Coding">
-                    <i class="fas fa-code fa-lg fa-fw"></i>
-                    <span>Tools2Code</span>
+                <a href="https://pam.devsagency.net"
+                    title="Pam Documentation">
+                    <i class="fab fa-php fa-lg fa-fw"></i>
+                    <span>Pam</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://animadio.org" 
+                    title="Animadio Documentation">
+                    <i class="fab fa-css3-alt fa-lg fa-fw"></i>
+                    <span>Animadio</span>
                 </a>
             </li>
         </ul>
     
-        <ul class="anima-slipL">
+        <ul class="anima-slideL-this">
             <li>
-                <a class="color-aqua-onto" 
+                <a class="onto-color-cyan" 
                     href="mailto:admin@philippebeck.net" 
                     title="Contact">
                     <i class="fas fa-at fa-lg"></i>
                 </a>
             </li>
             <li>
-                <a class="color-magenta-onto"
+                <a class="onto-color-pink"
                      href="https://github.com/sponsors/philippebeck" 
                     title="Go to the Sponsor Page">
                     <i class="far fa-heart fa-lg"></i>
                 </a>
             </li>
             <li>
-                <a class="color-pp-onto"
+                <a class="onto-color-pp"
                     href="https://paypal.me/philippebeck" 
                     title="Go to the Donation Page">
                     <i class="fab fa-paypal fa-lg"></i>
@@ -89,17 +123,19 @@
             </li>
         </ul>
 
-        <label for="navbar-close" title="Close the Navigation Menu">
+        <label for="navbar-close" 
+            title="Close the Navigation Menu">
             <i class="fas fa-angle-double-up fa-lg"></i>
         </label>
-        <label for="navbar-open" title="Open the Navigation Menu">
+        <label for="navbar-open" 
+            title="Open the Navigation Menu">
             <i class="fas fa-angle-double-down fa-lg"></i>
         </label>
     </nav>
 
     <main class="container-90sm-80lg align-center">
 
-        <h1 class="color-navy deco">Philippe Beck</h1>
+        <h1 class="color-fb deco">Philippe Beck</h1>
 
         <header class="container-90tn">
             Welcome to my portal, you will find all the links concerning my digital projects, code contributions, social networks and more!
@@ -153,7 +189,8 @@
 
         <section class="card-blue">
             <figure>
-                <img src="img/devsagency.svg" alt="DevsAgency Logo">
+                <img src="img/devsagency.svg" 
+                    alt="DevsAgency Logo">
             </figure>
 
             <h2>DevsAgency</h2>
@@ -197,9 +234,10 @@
             </a>
         </section>
 
-        <section class="card-tomato">
+        <section class="card-red">
             <figure>
-                <img src="img/animadio.png" alt="Animadio Logo">
+                <img src="img/animadio.png" 
+                    alt="Animadio Logo">
             </figure>
 
             <h2>Animadio</h2>
@@ -239,15 +277,22 @@
         </section>
     </main>
 
-    <input id="foot-networks" class="foot-check1" type="checkbox">
-    <input id="foot-websites" class="foot-check2" type="checkbox">
-    <input id="foot-packages" class="foot-check3" type="checkbox">
+    <input id="foot-networks" 
+        class="foot-check1" 
+        type="checkbox">
+    <input id="foot-websites" 
+        class="foot-check2" 
+        type="checkbox">
+    <input id="foot-packages" 
+        class="foot-check3" 
+        type="checkbox">
 
     <footer class="foot">
         <ul class="foot-list">
             <li class="foot-target1">
                 <h3>
-                    <label for="foot-networks">Domains
+                    <label for="foot-networks">
+                        Domains
                         <i class="fas fa-caret-up"></i>
                         <i class="fas fa-caret-down"></i>
                     </label>
@@ -275,7 +320,8 @@
             </li>
             <li class="foot-target2">
                 <h3>
-                    <label for="foot-websites">Websites
+                    <label for="foot-websites">
+                        Websites
                         <i class="fas fa-caret-up"></i>
                         <i class="fas fa-caret-down"></i>
                     </label>
@@ -309,7 +355,8 @@
             </li>
             <li class="foot-target3">
                 <h3>
-                    <label for="foot-packages">Packages
+                    <label for="foot-packages">
+                        Packages
                         <i class="fas fa-caret-up"></i>
                         <i class="fas fa-caret-down"></i>
                     </label>
