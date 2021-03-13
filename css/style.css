@@ -1,9 +1,9 @@
 :root {
-    --sans-serif-font-family: 'Capriola', sans-serif;
-    --serif-font-family: 'Kurale', serif;
-    --monospace-font-family: 'Ubuntu Mono', monospace;
+    --sans-serif: 'Capriola', sans-serif;
+    --serif: 'Kurale', serif;
+    --monospace: 'Ubuntu Mono', monospace;
   }
   
 .navbar {
-    --navbar-background-color: var(--purple);
+    --navbar-background-color: var(--violet);
   }
