@@ -1,6 +1,6 @@
 {
     "name": "portal",
-    "version": "0.2.2",
+    "version": "0.2.3",
     "description": "Philippe Beck Portal Website",
     "license": "MIT",
     "main": "index.html",
@@ -9,7 +9,7 @@
     "bugs": "https://github.com/philippebeck/portal/issues",
     "dependencies": {
         "@fortawesome/fontawesome-free": "^5.15.3",
-        "animadio": "^4.0.0"
+        "animadio": "^4.0.4"
     },
     "author": {
         "name": "Philippe Beck",
