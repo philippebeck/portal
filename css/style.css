@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Capriola&family=Kurale&family=Ubuntu+Mono&display=swap");
 
 :root {
-    --sans-serif: 'Capriola', sans-serif;
-    --serif: 'Kurale', serif;
-    --monospace: 'Ubuntu Mono', monospace;
-  }
-  
+  --sans-serif: 'Capriola', sans-serif;
+  --serif: 'Kurale', serif;
+  --monospace: 'Ubuntu Mono', monospace;
+}
